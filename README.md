@@ -53,14 +53,22 @@ Request Body:
 
 
 ---
-
-Project Structure
-
 express-practise/
 │
-├── app.js        # Main application file
-├── package.json  # Project metadata and dependencies
-└── README.md     # Documentation
+├── controller/
+│   └── books.js
+│
+├── middleWare/
+│
+├── routes/
+│   └── books.js
+│
+├── node_modules/
+│
+├── app.js
+├── package.json
+├── package-lock.json
+└── README.md
 
 
 ---
